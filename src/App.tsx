@@ -1,7 +1,7 @@
 import { ArrowRight, Check, MapPin, MonitorSmartphone, Search, Workflow, Compass, Wrench, Waves, Trees, Building2 } from 'lucide-react';
 
 function Logo({ light = true }: { light?: boolean }) {
-  return <a href="#home" className={`brand ${light ? '' : 'brand-dark'}`} aria-label="MidCoast Web Co. home"><span className="mwc-logo">MWC<svg viewBox="0 0 44 28" aria-hidden="true"><path d="M2 18c10-11 18-10 27-4 5 3 8 3 13 1-10 10-19 8-26 4-5-3-9-2-14-1Z"/><path d="M6 12c8-10 17-9 24-4 4 3 7 3 11 2-8 8-15 6-22 3-5-2-8-2-13-1Z"/></svg></span><span className="brand-name">MIDCOAST WEB CO.<small>WEBSITES • SEO • AUTOMATION</small></span></a>;
+  return <a href="#home" className={`brand ${light ? '' : 'brand-dark'}`} aria-label="MidCoast Web Co. home"><img src={light ? '/mwc-logo-light.svg' : '/mwc-logo-dark.svg'} alt="MidCoast Web Co. — Websites, SEO, Automation" /></a>;
 }
 
 const services = [
