@@ -1,3 +1,3 @@
 # MidCoast Web Co.
 
-Public website for midcoastweb.au.
+Public website for https://www.midcoastweb.com.au/.
