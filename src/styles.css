@@ -38,3 +38,5 @@ footer .brand img{width:220px}
 @media(max-width:850px){.nav-wrap{height:90px}.site-header .brand img{width:185px}.hero{min-height:720px;padding-top:145px;background-position:62% center}.hero-grid{min-height:480px}.service-line{margin-top:0}}
 @media(max-width:520px){.site-header .brand img{width:150px}.hero{min-height:680px;background-position:65% center}.hero-shade{background:linear-gradient(90deg,#071725f2 0%,#092238dd 48%,#06192977 100%)}.hero h1{font-size:42px}.hero-lead{font-size:15px}.hero .trust-row{display:none}}
 
+
+.mobile-menu{display:none}.phone-link{display:block;margin:22px 0;font-weight:700}.email-link{overflow-wrap:anywhere;font-size:clamp(16px,2vw,23px)}.footer-links{flex-wrap:wrap}.mobile-menu summary{cursor:pointer;padding:12px}.mobile-menu>div{position:absolute;top:78px;right:15px;display:grid;gap:4px;padding:16px;background:#0d1b2a;border:1px solid #5ec5c7;min-width:200px}.mobile-menu a{padding:10px}.measurement-choice{box-sizing:border-box}@media(max-width:850px){.mobile-menu{display:block}.nav-wrap>.button-small{display:none}}
