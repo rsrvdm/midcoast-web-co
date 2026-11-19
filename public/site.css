@@ -254,3 +254,5 @@ main p{color:var(--muted)}
 .hero-compact .hero-art{width:min(100%,300px)}
 .hero-compact+.section{padding-top:56px}
 @media(max-width:900px){.hero-compact .hero-art{display:none}.hero-compact{padding-bottom:16px}}
+
+.case-shot{margin:0 0 2rem}.case-shot img{width:100%;height:auto;border-radius:12px;border:1px solid rgba(0,0,0,.08)}.case-shot figcaption{font-size:.85rem;color:var(--muted);margin-top:.5rem}
